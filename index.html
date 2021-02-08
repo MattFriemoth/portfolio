@@ -1,0 +1,41 @@
+<!--Matthew Friemoth-->
+<!--02/04/2021-->
+<!--index.html main page for my portfolio-->
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Matthew Friemoth">
+        <meta name="keywords" content="Matthew Friemoth, Portfolio">
+        <meta name="description" content="Matthew Friemoth, Portfolio">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio - Matthew Friemoth</title>
+        <link rel="stylesheet" href="mainCSS.css"/>
+        <script src="indexJS.js"></script>
+    </head>
+    <body>
+        <header id="mainHeader">
+            <a href="index.html">
+                <button id="mainLogoButton">
+                    <img src="quicklogo.png" alt = "logo">
+                </button>
+            </a>
+            <button id="contactmeButton" onclick='window.location.href = "mailto:mattfriemoth99@gmail.com";'>
+                <img src="contactme.png" alt = "Email Me" style="width:200px; height:50px;">
+            </button>
+        </header>
+
+        <div id="mainMenu">
+            <a href="index.html">About Me</a>
+            <a href="skills.html">Skills</a>
+            <a href="education.html">Education & Employment</a>
+            <a href="MatthewFriemothResume.pdf" target="_blank" rel="noopener noreferrer" download="MatthewFriemothResume.pdf">View Resume</a>
+        </div>
+
+        <div id="focusBody">
+            <h1 id="mainTitle">Weclome to my portfolio!</h1>
+            <p class="infoParagraphs" id="p1">I am Matthew Friemoth, a undergrad enrolled in the Applied Math & Computer Science program at University of Wisconsin - Stout. I am currently in my junior year and expect to graduate in the spring of 2022. 
+                I have been passionate about coding ever since I started at 14 years old and have continually expanded my knowledge since then.</p>
+        </div>
+    </body>
+</html>
